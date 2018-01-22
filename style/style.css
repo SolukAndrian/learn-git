@@ -1,0 +1,210 @@
+body {
+    background-image: url(../img/Veix-Goodbye-New-York-Color-1200.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+nav.navbar-default {
+    
+    font-family: 'Molle', cursive;
+    background-color: #977fc9;
+    border-color: powderblue;
+    border-width: medium;
+}
+nav.navbar-default .navbar-brand {
+    
+    font-family: 'Molle', cursive;
+    color: #dfcdf2;
+}
+nav.navbar-default .navbar-nav > li > a:hover,
+nav.navbar-default .navbar-nav > li > a:focus {
+    font-family: 'Molle', cursive;
+    color: powderblue;
+}
+nav.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    font-family: 'Molle', cursive;
+    color: powderblue;
+}
+
+nav.navbar-default .navbar-nav > li > a {
+    color: #e1c2f8;
+}
+nav.navbar-default .navbar-nav > .active > a, 
+nav.navbar-default .navbar-nav > .active > a:hover, 
+nav.navbar-default .navbar-nav > .active > a:focus {
+    font-size: 18px;
+    color: deeppink;
+    background-color: plum;
+    border: 1px output blue;
+}
+.container h1
+{
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+}
+.well
+{
+    width: 110px;
+}
+.cl1
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #4d23a3;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 600px;
+    overflow: hidden;
+}
+.cl1 img
+{
+    margin: auto;
+    height: 300px;
+    width: 335px;
+}
+.cl2
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #977fc9;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 600px;
+    overflow: hidden;
+}
+.cl2 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl3
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #cc6bcc;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 600px;
+    overflow: hidden;
+}
+.cl3 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl4
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #cc6bcc;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 600px;;
+    overflow: hidden;
+}
+.cl4 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl5
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #977fc9;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 600px;
+    overflow: hidden;
+}
+.cl5 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl6
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #4d23a3;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 600px;
+    overflow: hidden;
+}
+.cl6 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl7
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #4d23a3;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 650px;
+    overflow: hidden;
+}
+.cl7 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl8
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #977fc9;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 650px;
+    overflow: hidden;
+}
+.cl8 img
+{
+    height: 300px;
+    width: 335px;
+}
+.cl9
+{
+    font-family: 'Molle', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #cc6bcc;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 650px;
+    overflow: hidden;
+}
+.cl9 img
+{
+    height: 300px;
+    width: 335px;
+}
+ul.pagination
+{
+    background-color: black;
+    margin-left: 450px;
+}
+.cl10
+{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 12px ridge #4d23a3;
+    background-color: floralwhite;
+    color: mediumpurple;
+    height: 700px;
+    overflow: hidden;
+}

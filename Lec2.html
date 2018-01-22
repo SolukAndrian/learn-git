@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $(".alert-success").hide();
+        });
+        $(function () {
+            $(".alert-warning").hide();
+        });
+        $(function () {
+            $(".alert-danger").hide();
+        });
+        $(document).ready(function () {
+            $("#show1").click(function () {
+                $(".alert-success").show();
+            });
+        });
+        $(document).ready(function () {
+            $("#show2").click(function () {
+                $(".alert-success").show();
+            });
+        });
+        $(document).ready(function () {
+            $("#show3").click(function () {
+                $(".alert-warning").show();
+            });
+        });
+        if ($(".alert-success").show() && $(".alert-warning").show()) {
+            $(document).ready(function () {
+                $("#show4").click(function () {
+                    $(".alert-danger").show();
+                });
+            });
+        }
+        else {
+            $(document).ready(function () {
+                $("#show4").click(function () {
+                    $(".alert-success").show();
+                });
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1><center>Amazing Places You Must Visit Before You Die</center></h1>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header"> <a class="navbar-brand" href="#">Amazing Places</a> </div>
+                <ul class="nav navbar-nav">
+                    <li ><a href="Lec.html">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="Lec2.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="cl10 col-lg-12 col-sm-12 col-xs-10">
+                <h1>Registration form</h1>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Крок 1</h3>
+                        <p>Введіть прізвище:
+                            <input name="surname" type="text" size="30"> </p>
+                        <p>Введіть Ім*я:
+                            <input name="name" type="text" size="30"> </p>
+                        <button id="show1">Відправити дані 1</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Крок 2</h3>
+                        <p>Введіть місяць народження:
+                            <input name="surname" type="text" size="30"> </p>
+                        <p>Введіть день народження:
+                            <input name="name" type="text" size="30"> </p>
+                        <p>Введіть рік народження:
+                            <input name="name" type="text" size="30"> </p>
+                        <button id="show2">Відправити дані 2</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Крок 3</h3>
+                        <p>Введіть емейл:
+                            <input name="surname" type="text" size="30"> </p>
+                        <p>Введіть пароль:
+                            <input name="name" type="text" size="30"> </p>
+                        <button id="show3">Відправити дані 3</button>
+                    </div>
+                </div>
+                <br>
+        <br>
+        <br>
+        <div class="alert alert-success" role="alert">Все супер! Ви успішно зареєстровані.</div>
+        <div class="alert alert-warning" role="alert">Увага! Користувач з вашими даними зареєстрований.</div>
+        <div class="alert alert-danger" role="alert">Ваша реєстрація не є успішною! Спробуйте ще.</div>
+        <center>
+            <button id="show4">Остаточна відправка даних</button>
+        </center>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+
+</html>
